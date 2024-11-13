@@ -1,0 +1,103 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styles for the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background for movie theme */
+    color: #ffffff; /* White text for readability */
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Container style */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header style */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #333333;
+  }
+  
+  header h1 {
+    color: #f5c518; /* Theme color */
+    font-size: 1.8rem;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #f5c518;
+    border: none;
+    color: #333333;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e2b20e;
+  }
+  
+  /* Search bar styling */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #555555;
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  /* Movie list and movie item styling */
+  .movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+  .movie-item {
+    background-color: #222222;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .movie-item img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .movie-item h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #f5c518;
+  }
+  
+  /* Footer styling */
+  footer {
+    text-align: center;
+    padding: 20px;
+    color: #888888;
+    font-size: 0.9rem;
+  }
+  
